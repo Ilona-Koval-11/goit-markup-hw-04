@@ -48,6 +48,7 @@ ul{
 --border-color:rgba(238, 238, 238, 1);
 --gradient-background-color:#c4c4c4;
 --gradient-color:rgba(47, 48, 58, 0.4);
+--social-link-color:rgba(175, 177, 184, 1);
 }
 
                                               /* header*/
@@ -88,7 +89,7 @@ border-bottom: 1px solid var(--border-color);
         }
 
 .menu-link-header:nth-child(1)::before {
-background-image: url(../images/icons/envelope\ \(hover\).svg);
+background-image: url(../images/icons/envelope\(hover\).svg);
 }
 
 .menu-link-header:nth-child(2)::before {
@@ -185,7 +186,7 @@ background-image:
 linear-gradient(
     to right,
     rgba(47, 48, 58, 0.4),
-    rgba(58, 48, 47, 0.4)
+    rgba(47, 48, 58, 0.4)
     ),
 url('../images/icons/hero-bgk-image.jpg');
 background-repeat:no-repeat;
@@ -305,19 +306,19 @@ width: 270px;
 }
 
 .preferences:nth-child(1)::before{
-background-image: url(../images/icons/Group\ 1.svg);
+background-image: url(../images/icons/Group1.svg);
 }
 
 .preferences:nth-child(2)::before {
-background-image: url(../images/icons/Group\ 2.svg);
+background-image: url(../images/icons/Group2.svg);
 }
 
 .preferences:nth-child(3)::before {
-background-image: url(../images/icons/Group\ 3.svg);
+background-image: url(../images/icons/Group3.svg);
 }
 
 .preferences:nth-child(4)::before {
-    background-image: url(../images/icons/Group\ 4.svg);
+    background-image: url(../images/icons/Group4.svg);
 }
 
 
@@ -445,54 +446,60 @@ list-style: none;
     margin-left: 32px;
 }
 
-
-.social-links-item-one{
-    display: block;
-        content: "";
-        width: 20px;
-        height: 20px;
-        outline: 1px solid var(--minor-color);
-        background-image: url(../images/icons/instagram\ 2.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+.link-item{
+    width: 40px;
+    height: 40px;
+    fill: var(--social-link-color);
 }
 
-.social-links-item-two {
-    display: block;
-    content: "";
-    width: 20px;
-    height: 20px;
-    outline: 1px solid var(--minor-color);
-    background-image: url(../images/icons/twitter\ 1.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+   .social-links-footer-item-one {
+       display: block;
+       content: "";
+       width: 20px;
+       height: 20px;
+       outline: 1px solid var(--dark-background-color);
+       background-image: url(../images/icons/instagram\ 2.svg);
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-position: center;
+   }
 
-.social-links-item-three {
-    display: block;
-    content: "";
-    width: 20px;
-    height: 20px;
-    outline: 1px solid var(--minor-color);
-    background-image: url(../images/icons/facebook\ 1.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+   .social-links-footer-item-two {
+       display: block;
+       content: "";
+       width: 20px;
+       height: 20px;
+       outline: 1px solid var(--dark-background-color);
+       background-image: url(../images/icons/twitter\ 1.svg);
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-position: center;
+   }
 
-.social-links-item-four {
-    display: block;
-    content: "";
-    width: 20px;
-    height: 20px;
-    outline: 1px solid var(--minor-color);
-    background-image: url(../images/icons/linkedin\ 1.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+   .social-links-footer-item-three {
+       display: block;
+       content: "";
+       width: 20px;
+       height: 20px;
+       outline: 1px solid var(--dark-background-color);
+       background-image: url(../images/icons/facebook\ 1.svg);
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-position: center;
+   }
+
+   .social-links-footer-item-four {
+       display: block;
+       content: "";
+       width: 20px;
+       height: 20px;
+       outline: 1px solid var(--dark-background-color);
+       background-image: url(../images/icons/linkedin\ 1.svg);
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-position: center;
+   }
+
 
                                         /* section-five*/
 
@@ -532,19 +539,19 @@ list-style: none;
         width: 170px;
         height: 92px;
         outline: 1px solid var(--background-color);
-        background-image: url(../images/icons/Client\ 1.svg);
+        background-image: url(../images/icons/Client1.svg);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
 }
 
-.client-otwo {
+.client-two {
     display: block;
     content: "";
     width: 170px;
     height: 92px;
     outline: 1px solid var(--background-color);
-    background-image: url(../images/icons/Client\ 2.svg);
+    background-image: url(../images/icons/Client2.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -556,7 +563,7 @@ list-style: none;
     width: 170px;
     height: 92px;
     outline: 1px solid var(--background-color);
-    background-image: url(../images/icons/Client\ 3.svg);
+    background-image: url(../images/icons/Client3.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -568,7 +575,7 @@ list-style: none;
     width: 170px;
     height: 92px;
     outline: 1px solid var(--background-color);
-    background-image: url(../images/icons/Client\ 4.svg);
+    background-image: url(../images/icons/Client4.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -580,7 +587,7 @@ list-style: none;
     width: 170px;
     height: 92px;
     outline: 1px solid var(--background-color);
-    background-image: url(../images/icons/Client\ 5.svg);
+    background-image: url(../images/icons/Client5.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -592,7 +599,7 @@ list-style: none;
     width: 170px;
     height: 92px;
     outline: 1px solid var(--background-color);
-    background-image: url(../images/icons/Client\ 6.svg);
+    background-image: url(../images/icons/Client6.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -714,8 +721,9 @@ margin-right: 0;
     margin: 0 auto;
 }
 
-.container-footer{
+.footer .container{
     display: flex;
+    align-items: baseline;
 }
 
 .container-footer-right{
@@ -826,7 +834,7 @@ text-align: left;
     width: 20px;
     height: 20px;
     outline: 1px solid var(--dark-background-color);
-    background-image: url(../images/icons/Ellipse.svg);
+    background-image: url(../images/icons/instagram\ 2.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -838,7 +846,7 @@ text-align: left;
     width: 20px;
     height: 20px;
     outline: 1px solid var(--dark-background-color);
-    background-image: url(../images/icons/Ellipse\ \(1\).svg);
+    background-image: url(../images/icons/twitter\ 1.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -850,7 +858,7 @@ text-align: left;
     width: 20px;
     height: 20px;
     outline: 1px solid var(--dark-background-color);
-    background-image: url(../images/icons/Ellipse\ \(2\).svg);
+    background-image: url(../images/icons/facebook\ 1.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -862,8 +870,23 @@ text-align: left;
     width: 20px;
     height: 20px;
     outline: 1px solid var(--dark-background-color);
-    background-image: url(../images/icons/Ellipse\ \(3\).svg);
+    background-image: url(../images/icons/linkedin\ 1.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+.link{
+margin-right: 10px;
+padding: 3px;
+position: absolute;
+}
+
+.link:hover{
+    color:var(--secondary-color);
+}
+
+.title-footer{
+    color: var(--minor-color);
+    margin-bottom: 20px;
+    text-align: center;
 }
