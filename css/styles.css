@@ -635,8 +635,7 @@ border: navajowhite;
     
         padding-left: 15px;
         padding-right: 15px;
-       
-}
+       }
 
 
 .flex-container-button{
@@ -715,6 +714,18 @@ margin-right: 0;
     margin: 0 auto;
 }
 
+.container-footer{
+    display: flex;
+}
+
+.container-footer-right{
+    display: inline-block;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 15;
+}
+
 flex-element-footer{
 margin-left: 15px;
 justify-content: flex-start;
@@ -784,6 +795,7 @@ text-align: left;
 
     .footer-li{
         margin-bottom: 9px;
+        
     }
 
     .footer-li:last-child {
